@@ -7,13 +7,24 @@
 </head>
 
 <body>
-  <form>
+  <form class="form">
 	  <label>Name:</label>
-	  <input id="name" type=text>
-	  <label>Name:</label>
-	  <input id="price" type=text>
-	  <button id="add" type="submit">Add</button>
+	  <input id="item-name-input" type=text>
+	  <label>Price :</label>
+	  <input id="item-price-input" type="number">
+	  <button id="add" aria-label="Add" type="submit">Add</button>
   </form>
+	<table>
+		<thead>
+			<tr>
+				<th>Item_Name</th>
+				<th>Price</th>
+			</tr>
+		</thead>
+		<tbody id="Shopping list">
+			
+		</tbody>
+	</table>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
